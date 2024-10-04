@@ -1,6 +1,4 @@
 <?php
-
-echo "Hello world";
-
-
+ include("./config.php"); // Thêm dấu chấm phẩy ở đây
+ echo "Hello world";
 ?>
