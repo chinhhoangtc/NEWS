@@ -6,8 +6,4 @@ try {
     echo 'Kết nối thất bại: ' . $e->getMessage();
 }
 
-// Nếu bạn cần thực hiện truy vấn nào đó, hãy khởi tạo $stm ở đây
-// Ví dụ: $stm = $pdo->prepare('SELECT * FROM some_table');
-// $stm->execute();
-// $data = $stm->fetchAll(PDO::FETCH_ASSOC);
 ?>

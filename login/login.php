@@ -77,6 +77,7 @@ if (isset($_POST['login'])) {
         <input type="password" id="password" name="password" required>
         <br>
         <input type="submit" name="login" value="Login">
+        <a href="./register.php">Register</a>
     </form>
     <?php if ($error): ?>
         <div class="error-message"><?php echo $error; ?></div>
